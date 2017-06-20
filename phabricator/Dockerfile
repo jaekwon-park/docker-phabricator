@@ -42,6 +42,7 @@ ADD start /usr/local/phabricator/start
 
 VOLUME /var/repo
 VOLUME /usr/local/phabricator/phabricator/conf/local
+VOLUME /var/storage
 
 CMD ["/usr/local/phabricator/start"]
 EXPOSE 80
